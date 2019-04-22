@@ -49,3 +49,9 @@ Possible values:
 Have a Fun with Buzzer.
 
 User Space Application C source code for pwm using sysyfs.
+
+Compile the source code s5p4418_pwm.c and run it on the target.
+
+arm-cortexa9-linux-gnueabihf-gcc s5p4418_pwm.c -o s5p4419_pwm
+
+./s5p4418_pwm
